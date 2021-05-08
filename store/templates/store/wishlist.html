@@ -1,0 +1,311 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+
+
+
+    <div class="page-layout">
+        <div class="catagory-sidebar-area">
+            <div class="catagory-sidebar-area-inner">
+                <div class="catagory-sidebar all-catagory-option">
+                    <ul class="catagory-submenu">
+                        <li><a data-toggle="collapse" href="#catagory-widget1" role="button" aria-expanded="false" aria-controls="catagory-widget1">Vegetables<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse show" id="catagory-widget1">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget2" role="button" aria-expanded="false" aria-controls="catagory-widget2">Fruits<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget2">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget3" role="button" aria-expanded="false" aria-controls="catagory-widget3">Salads<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget3">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget4" role="button" aria-expanded="false" aria-controls="catagory-widget4">Fish & seafood<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget4">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget5" role="button" aria-expanded="false" aria-controls="catagory-widget5">Fresh Meat<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget5">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget6" role="button" aria-expanded="false" aria-controls="catagory-widget6">Health Products<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget6">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget7" role="button" aria-expanded="false" aria-controls="catagory-widget7">Butter & Eggs<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget7">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget8" role="button" aria-expanded="false" aria-controls="catagory-widget8">Oils and Venegar<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget8">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget9" role="button" aria-expanded="false" aria-controls="catagory-widget9">Frozen Food<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget9">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget10" role="button" aria-expanded="false" aria-controls="catagory-widget10">Jam & Honey<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget10">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-content-area">
+            <!-- page-header-section start -->
+            <div class="page-header-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-between justify-content-md-start">
+                            <ul class="breadcrumb">
+                                <li><a href="{% url 'index' %}">Home</a></li>
+                                <li><span>/</span></li>
+                                <li>Fruits & Vegetables</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- page-header-section end -->
+
+
+
+            <!-- admin-page start -->
+            <section class="admin-page-section d-flex align-items-center">
+                <div class="aps-wrapper w-100">
+                    <div class="container">
+                        <div class="row justify-content-center justify-content-md-start">
+                            <div class="admin-content-area">
+                                <div class="admin-thumb">
+                                    <img src="assets/images/admin/thumb.jpg" alt="">
+                                    <a href="#" class="image-change-option"><i class="fas fa-camera"></i></a>
+                                </div>
+                                <div class="admin-content">
+                                    <h4 class="name">Jhone Doe</h4>
+                                    <p class="desc">Lorem Ipsum is simply dummy text.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- admin-page end -->
+
+
+
+            <!-- dashboard-section start -->
+            <section id="dashboard-nav" class="dashboard-section">
+                <div class="container">
+                    <ul class="dashbord-nav d-lg-flex flex-wrap align-items-center justify-content-between">
+                        <li><a href="user-dashbord.html#dashboard-nav"><i class="far fa-list-alt"></i>Your Orders</a></li>
+                        <li><a href="track-order.html#dashboard-nav"><i class="fas fa-shipping-fast"></i>Track Orders</a></li>
+                        <li><a href="profile.html#dashboard-nav"><i class="far fa-user"></i>Your Profile</a></li>
+                        <li><a class="active" href="wishlist.html#dashboard-nav"><i class="far fa-heart"></i>Wish List</a></li>
+                    </ul>
+                </div>
+
+                <div class="container">
+                    <div class="dashboard-body wishlist">
+                        <div class="wishlist-header">
+                            <h6>Shopping Wishlist</h6>
+                        </div>
+                        <div class="wish-list-container">
+                            <div class="wishlist-item product-item d-flex align-items-center">
+                                <span class="close-item"><i class="fas fa-times"></i></span>
+                                <div class="thumb">
+                                    <a onclick="openModal()"><img src="assets/images//products/cart/01.png" alt="products"></a>
+                                </div>
+                                <div class="product-content">
+                                    <a href="{% url 'product_detail' %}" class="product-title">Daisy Cont Oil</a>
+                                    <div class="product-cart-info">
+                                        1x 31b
+                                    </div>
+                                    <div class="product-price">
+                                        <del>$8.00</del><span class="ml-4">$5.00</span>
+                                    </div>
+                                    <div class="cart-btn-toggle" onclick="cartopen()">
+                                        <span class="cart-btn"><i class="fas fa-shopping-cart"></i> Cart</span>
+
+                                        <div class="price-btn">
+                                            <div class="price-increase-decrese-group d-flex">
+                                                <span class="decrease-btn">
+                                                    <button type="button"
+                                                        class="btn quantity-left-minus" data-type="minus" data-field="">-
+                                                    </button> 
+                                                </span>
+                                                <input type="text" name="quantity" class="form-controls input-number" value="1">
+                                                <span class="increase">
+                                                    <button type="button"
+                                                        class="btn quantity-right-plus" data-type="plus" data-field="">+
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="wishlist-item product-item d-flex align-items-center">
+                                <span class="close-item"><i class="fas fa-times"></i></span>
+                                <div class="thumb">
+                                    <a onclick="openModal()"><img src="assets/images//products/cart/02.png" alt="products"></a>
+                                </div>
+                                <div class="product-content">
+                                    <a href="{% url 'product_detail' %}" class="product-title">Daisy Cont Oil</a>
+                                    <div class="product-cart-info">
+                                        1x 31b
+                                    </div>
+                                    <div class="product-price">
+                                        <del>$8.00</del><span class="ml-4">$5.00</span>
+                                    </div>
+                                    <div class="cart-btn-toggle" onclick="cartopen()">
+                                        <span class="cart-btn"><i class="fas fa-shopping-cart"></i> Cart</span>
+
+                                        <div class="price-btn">
+                                            <div class="price-increase-decrese-group d-flex">
+                                                <span class="decrease-btn">
+                                                    <button type="button"
+                                                        class="btn quantity-left-minus" data-type="minus" data-field="">-
+                                                    </button> 
+                                                </span>
+                                                <input type="text" name="quantity" class="form-controls input-number" value="1">
+                                                <span class="increase">
+                                                    <button type="button"
+                                                        class="btn quantity-right-plus" data-type="plus" data-field="">+
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="wishlist-item product-item d-flex align-items-center">
+                                <span class="close-item"><i class="fas fa-times"></i></span>
+                                <div class="thumb">
+                                    <a onclick="openModal()"><img src="assets/images//products/cart/03.png" alt="products"></a>
+                                </div>
+                                <div class="product-content">
+                                    <a href="{% url 'product_detail' %}" class="product-title">Daisy Cont Oil</a>
+                                    <div class="product-cart-info">
+                                        1x 31b
+                                    </div>
+                                    <div class="product-price">
+                                        <del>$8.00</del><span class="ml-4">$5.00</span>
+                                    </div>
+                                    <div class="cart-btn-toggle" onclick="cartopen()">
+                                        <span class="cart-btn"><i class="fas fa-shopping-cart"></i> Cart</span>
+
+                                        <div class="price-btn">
+                                            <div class="price-increase-decrese-group d-flex">
+                                                <span class="decrease-btn">
+                                                    <button type="button"
+                                                        class="btn quantity-left-minus" data-type="minus" data-field="">-
+                                                    </button> 
+                                                </span>
+                                                <input type="text" name="quantity" class="form-controls input-number" value="1">
+                                                <span class="increase">
+                                                    <button type="button"
+                                                        class="btn quantity-right-plus" data-type="plus" data-field="">+
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="wishlist-item product-item d-flex align-items-center">
+                                <span class="close-item"><i class="fas fa-times"></i></span>
+                                <div class="thumb">
+                                    <a onclick="openModal()"><img src="assets/images//products/cart/04.png" alt="products"></a>
+                                </div>
+                                <div class="product-content">
+                                    <a href="{% url 'product_detail' %}" class="product-title">Daisy Cont Oil</a>
+                                    <div class="product-cart-info">
+                                        1x 31b
+                                    </div>
+                                    <div class="product-price">
+                                        <del>$8.00</del><span class="ml-4">$5.00</span>
+                                    </div>
+                                    <div class="cart-btn-toggle" onclick="cartopen()">
+                                        <span class="cart-btn"><i class="fas fa-shopping-cart"></i> Cart</span>
+
+                                        <div class="price-btn">
+                                            <div class="price-increase-decrese-group d-flex">
+                                                <span class="decrease-btn">
+                                                    <button type="button"
+                                                        class="btn quantity-left-minus" data-type="minus" data-field="">-
+                                                    </button> 
+                                                </span>
+                                                <input type="text" name="quantity" class="form-controls input-number" value="1">
+                                                <span class="increase">
+                                                    <button type="button"
+                                                        class="btn quantity-right-plus" data-type="plus" data-field="">+
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- dashboard-section end -->
+
+
+            {% endblock content %}

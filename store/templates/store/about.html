@@ -1,0 +1,150 @@
+
+
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+
+
+
+    <div class="page-layout">
+        <div class="catagory-sidebar-area">
+            <div class="catagory-sidebar-area-inner">
+                <div class="catagory-sidebar all-catagory-option">
+                    <ul class="catagory-submenu">
+                        <li><a data-toggle="collapse" href="#catagory-widget1" role="button" aria-expanded="false" aria-controls="catagory-widget1">Vegetables<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse show" id="catagory-widget1">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget2" role="button" aria-expanded="false" aria-controls="catagory-widget2">Fruits<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget2">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget3" role="button" aria-expanded="false" aria-controls="catagory-widget3">Salads<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget3">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget4" role="button" aria-expanded="false" aria-controls="catagory-widget4">Fish & seafood<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget4">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget5" role="button" aria-expanded="false" aria-controls="catagory-widget5">Fresh Meat<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget5">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget6" role="button" aria-expanded="false" aria-controls="catagory-widget6">Health Products<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget6">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget7" role="button" aria-expanded="false" aria-controls="catagory-widget7">Butter & Eggs<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget7">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget8" role="button" aria-expanded="false" aria-controls="catagory-widget8">Oils and Venegar<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget8">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget9" role="button" aria-expanded="false" aria-controls="catagory-widget9">Frozen Food<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget9">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                        <li><a  data-toggle="collapse" href="#catagory-widget10" role="button" aria-expanded="false" aria-controls="catagory-widget10">Jam & Honey<i class="fas fa-angle-down"></i></a>
+                            <ul class="catagory-submenu collapse" id="catagory-widget10">
+                                <li><a href="{% url 'product_list' %}">Artichoke.</a></li>
+                                <li><a href="{% url 'product_list' %}">Aubergine (eggplant).</a></li>
+                                <li><a href="{% url 'product_list' %}">Asparagus.</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoflower (a hybrid).</a></li>
+                                <li><a href="{% url 'product_list' %}">Broccoli (calabrese).</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-content-area">
+            <!-- page-header-section start -->
+            <div class="page-header-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-between justify-content-md-end">
+                            <ul class="breadcrumb">
+                                <li><a href="{% url 'index' %}">Home</a></li>
+                                <li><span>/</span></li>
+                                <li>About Us</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- page-header-section end -->
+
+
+
+            <!-- about section start -->
+            <section class="about-section section-ptb">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 order-lg-last pr-xl-5">
+                            <div class="about-content mb-4 mb-lg-0 pr-lg-5">
+                                <h3>Who We Are</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur quibusdam enim expedita sed nesciunt incidunt accusamus adipisci officia libero laboriosam!</p>
+                                <p>Proin gravida nibh vel velit auctor aliquet. nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vultate cursus a sit amet mauris. Duis sed odio sit amet nibh vultate cursus a sit amet mauris.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 order-lg-first">
+                            <div class="about-image">
+                                <img src="assets/images/about/01.jpg" alt="about image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- about section end -->
+
+
+
+            {% endblock content %}
